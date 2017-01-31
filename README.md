@@ -19,11 +19,12 @@ should output
 
 ![list of currently supported frameworks](/notes/yo-gf.png)
 
-The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For example, to generate all the placeholder 'customer' pages for an ionic2 mobile app, type `yo gf i2 customer`. This will scaffold three files:
+The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For example, to generate all the placeholder 'customer' pages for an ionic2 mobile app, type `yo gf i2 customer`. This will scaffold three files in a new folder:
 
-* `customer.page.html`
-* `customer.page.scss`
-* `customer.page.ts`
+* `/customer`
+* `/customer/customer.page.html`
+* `/customer/customer.page.scss`
+* `/customer/customer.page.ts`
 
 
 ## Getting To Know Yeoman
