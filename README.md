@@ -1,5 +1,5 @@
 # generator-gf [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> goblinfactory default page generator for various javascript UX libraries, angular2, aurelia and ionic
+> goblinfactory default page yeoman generator for various javascript UX libraries, angular2, aurelia and ionic
 
 ## Installation
 
