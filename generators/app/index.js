@@ -2,35 +2,22 @@
 var Generator = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
+var columnify = require('columnify');
 
 module.exports = Generator.extend({
   prompting: function () {
-    // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the transcendent ' + chalk.red('generator-gf') + ' generator!'
+      'Welcome to the fabulous Goblinfactory yoyo page generator ' + chalk.red('generator-gf-page')
     ));
 
-    var prompts = [{
-      type: 'confirm',
-      name: 'someAnswer',
-      message: 'Would you like to enable this option?',
-      default: true
-    }];
+    this.log(chalk.yellow('available page types'));
+    var data = {
+      ionic2: 'yo gf i2 customer',
+      angular2: 'n/a yet',
+      aurelia: 'n/a yet'
+    };
 
-    return this.prompt(prompts).then(function (props) {
-      // To access props later use this.props.someAnswer;
-      this.props = props;
-    }.bind(this));
-  },
-
-  writing: function () {
-    this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
-    );
-  },
-
-  install: function () {
-    this.installDependencies();
+    console.log(columnify(data, {columns: ['MODULE', 'COUNT']}));
   }
+
 });
