@@ -41,6 +41,10 @@ The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For e
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
+## Special thanks
+
+Special thanks to (Pascal Hartig)(https://github.com/passy) for writing the [generator-generator](https://github.com/yeoman/generator-generator) that I used to kick start this generator project. Gosh, Pascal is a serious open source addict, 1500 contributions in the last year #Kudos and of course #quitejealous ;-D 
+
 ## License
 
 MIT © [Alan Hemmings](https://about.me/alanhemmings)
