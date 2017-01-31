@@ -1,7 +1,7 @@
 {
   "name": "generator-gf",
   "version": "0.0.0",
-  "description": "goblinfactory default page generator for various javascript UX libraries, angular2, aurelia and ionic",
+  "description": "goblinfactory default yeoman page generator for various javascript UX libraries, angular2, aurelia and ionic",
   "homepage": "https://github.com/goblinfactory/generator-gf",
   "author": {
     "name": "Alan Hemmings",
