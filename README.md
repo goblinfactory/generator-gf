@@ -3,10 +3,9 @@
 
 ## Status
 
-Not ready for general consumption yet. I'm currently learning Ionic2 and will be updating the generator I as progress. I'll change this status notice when I think it can add some value, or does something differently to the generators listed below. 
+I ended up writing this generator for myself as I couldnt find an Ionic2 start page scaffolder (I didn't look very hard so if I've missed something awesome I'll link to that), hopefully this is useful to you. If there's something obvious I've missed out that you were expecting, then please message me and I'll consider adding it. Of course, feel free to fork this project and add it yourself, or chat to me about adding you as a contributor. 
 
 - [If you're looking for an ionic1 generator, go here.](https://github.com/njleonzhang/generator-gulp-ionic)
-- If you're looking for an ionic2 generator, please let me know when you find a good one and I'll put that link here.
 
 ## Installation
 
