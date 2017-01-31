@@ -15,8 +15,11 @@ To list the pages types that gf can generate
 ```bash
 yo gf
 ```
+should output
 
-The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For example, to generate all the pages for an ionic2 mobile app, type `yo gf i2 customer` this will scaffold three files
+![list of currently supported frameworks](docs/yo-gf.png)
+
+The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For example, to generate all the pages for an ionic2 mobile app, type `yo gf i2 customer`. This will scaffold three files:
 
 * `customer.page.html`
 * `customer.page.scss`
