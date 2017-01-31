@@ -1,6 +1,6 @@
 {
   "name": "generator-gf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "goblinfactory default yeoman page generator for various javascript UX libraries, angular2, aurelia and ionic",
   "homepage": "https://github.com/goblinfactory/generator-gf",
   "author": {

@@ -43,7 +43,7 @@ The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For e
 
 ## Special thanks
 
-Special thanks to (Pascal Hartig)(https://github.com/passy) for writing the [generator-generator](https://github.com/yeoman/generator-generator) that I used to kick start this generator project. Gosh, Pascal is a serious open source addict, 1500 contributions in the last year #Kudos and of course #quitejealous ;-D 
+Special thanks to (Pascal Hartig)(https://github.com/passy) for writing the [generator-generator](https://github.com/yeoman/generator-generator) that I used to kick start this generator project. Gosh, Pascal is a serious open source addict, 1500 contributions in the last year, Yikes! #Kudos and of course #quitejealous ;-D 
 
 ## License
 
