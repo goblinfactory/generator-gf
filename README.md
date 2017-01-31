@@ -5,6 +5,7 @@
 
 I ended up writing this generator for myself as I couldnt find an Ionic2 start page scaffolder (I didn't look very hard so if I've missed something awesome I'll link to that), hopefully this is useful to you. If there's something obvious I've missed out that you were expecting, then please message me and I'll consider adding it. Of course, feel free to fork this project and add it yourself, or chat to me about adding you as a contributor. 
 
+- currently only ionic2 is supported. 
 - [If you're looking for an ionic1 generator, go here.](https://github.com/njleonzhang/generator-gulp-ionic)
 
 ## Installation
