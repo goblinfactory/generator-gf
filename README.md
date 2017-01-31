@@ -1,6 +1,13 @@
 # generator-gf [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > goblinfactory default page yeoman generator for various javascript UX libraries, angular2, aurelia and ionic
 
+## Status
+
+Not ready for general consumption yet. I'm currently learning Ionic2 and will be updating the generator I as progress. I'll change this status notice when I think it can add some value, or does something differently to the generators listed below. 
+
+- [If you're looking for an ionic1 generator, go here.](https://github.com/njleonzhang/generator-gulp-ionic)
+- If you're looking for an ionic2 generator, please let me know when you find a good one and I'll put that link here.
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-gf using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
