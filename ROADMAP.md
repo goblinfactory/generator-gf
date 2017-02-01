@@ -13,9 +13,9 @@ This roadmap is just my ideas for now. 'Advanced page types' I'm already current
  
 ## form builders
 
-- `i2.listform.q` (very simple list and form builder, with options to specify fields and types, e.g. Name(\*), Surname(\*), Age(\*0), Email(\*@)
-  - default field types are string
-  - (\*) = required
-  - (0) or (\*0) = number field and required number field
-  - (?) = date
-* not going to be reading any AST (abstract syntax tree) If the files already exist, they won't be overwritten. If you want to regenerate the starter pages, you'll need to delete the pages and start over.
+- `i2.listform.q` (very simple list and form builder, with options to specify fields and types
+ - for example : Name\*, Surname\*, Age0\*, Email@\*, BDay? 
+  - \* : required
+  - 0 : number
+  - ? : date
+- If the files already exist, they won't be overwritten. If you want to regenerate the starter pages, you'll need to delete the pages and start over.
