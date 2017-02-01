@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Ucommitted]
-
-This is a list of the items I am currently working on, not yet committed that will move into unreleased. (It's my BUSY column in kanban, so that I remember to move these notes from uncommitted to unreleased, and so on)
-
-- Fix bug, script not work if page name contains a hyphen. (i.e. need to convert to camelCase)
+My only exception to Sematic Versioning, is that all version numbers below 1 can contain breaking changes until the functionality stabilises, at which point version 1 and greater will follow `semver` guidelines.
 
 ## [Unreleased]
+
+## [0.0.5] - 2017-02-01
+
+### Added
+- Support page names with hyphens, convert the name into camelcase so that the generated `{pagename}Page` class is valid. e.g. `my-games` becomes `class myGamesPage` instead of `class my-gamesPage`.
 
 ## [0.0.4] - 2017-02-01
 
