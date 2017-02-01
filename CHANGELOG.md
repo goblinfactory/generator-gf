@@ -8,6 +8,12 @@ My only exception to Sematic Versioning, is that all version numbers below 1 can
 
 ## [Unreleased]
 
+## [0.0.6] - 2017-02-01
+
+### Changed
+
+- oops, sposed to be CamelCase, not pascalCase, i.e. captalise class names in `name.page.ts`, so that `yo gf:i2 test-apple` generates `class TestApplePage`
+
 ## [0.0.5] - 2017-02-01
 
 ### Added

@@ -1,5 +1,5 @@
 var Generator = require('yeoman-generator');
-const camelCase = require('camelcase');
+var pascalCase = require('pascal-case');
 
 module.exports = class extends Generator {
 
@@ -12,7 +12,7 @@ module.exports = class extends Generator {
 
   createFiles() {
     let name = this.options.pagename;
-    let className = camelCase(name);
+    let className = pascalCase(name + 'Page');
     this.fs.copyTpl(this.templatePath('name.page.html'), this.destinationPath(`${name}/${name}.page.html`), {name: name, className: className});
     this.fs.copyTpl(this.templatePath('name.page.scss'), this.destinationPath(`${name}/${name}.page.scss`), {name: name, className: className});
     this.fs.copyTpl(this.templatePath('name.page.ts'), this.destinationPath(`${name}/${name}.page.ts`), {name: name, className: className});
