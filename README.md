@@ -46,7 +46,12 @@ Ideas for now. I know the form builder is a bold idea and is a rabbit hole I cou
  - `i2.listform` (list and an edit form)
 * Advanced sub type generators will end with `.q`. This will result in a few Q & A type generator questions (in the shell) allowing you to customise the generated pages using the traditional `yo` wizard style. 
  - `i2.list.q` 
- - `i2.listform.q` (very simple list and form builder, with options to specify fields and types, e.g. Name*, Surname*, Age, Email )
+ - `i2.listform.q` (very simple list and form builder, with options to specify fields and types, e.g. Name(*), Surname(*), Age(*0), Email(*@)
+  - default field types are string
+  - (*) = required
+  - (0) or (*0) = number field and required number field
+  - (?) = date
+* not going to be reading any AST (abstract syntax tree) If the files already exist, they won't be overwritten. If you want to regenerate the starter pages, you'll need to delete the pages and start over.
 
 ## Getting To Know Yeoman
 
