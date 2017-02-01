@@ -12,12 +12,12 @@ module.exports = Generator.extend({
 
     this.log(chalk.yellow('supported frameworks'));
     var data = [
-      {framework:`ionic2`, shortcut:'i2', example:'yo gf i2 customer'},      
-      {framework:`agular2`, shortcut:' ', example:'NA'},
-      {framework:`aurelia`, shortcut:' ', example:'NA'}
+      {framework: `ionic2`, shortcut: 'i2', example: 'yo gf:i2 customer'},
+      {framework: `agular2`, shortcut: ' ', example: 'NA'},
+      {framework: `aurelia`, shortcut: ' ', example: 'NA'}
     ];
 
-    console.log(columnify(data, {columns: ['framework', 'shortcut', 'example'],  columnSplitter: ' | '}));
+    console.log(columnify(data, {columns: ['framework', 'shortcut', 'example'], columnSplitter: ' | '}));
     console.log();
   }
 

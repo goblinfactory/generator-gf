@@ -26,7 +26,7 @@ should output
 
 ![list of currently supported frameworks](/notes/yo-gf.png)
 
-The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For example, to generate all the placeholder 'customer' pages for an ionic2 mobile app, type `yo gf i2 customer`. This will scaffold three files in a new folder:
+The general syntax is `yo gf` followed by `:{framework}` plus  `{pagename}`. For example, to generate all the placeholder 'customer' pages for an ionic2 mobile app, type `yo gf:i2 customer`. This will scaffold three files in a new folder:
 
 * `/customer`
 * `/customer/customer.page.html`
@@ -36,8 +36,8 @@ The general syntax is `yo gf` followed by `{framework}` plus `{pagename}`. For e
 ## default page type 
 
 The default page type for each framework (e.g. `i2`) will be the most commonly created placeholder page for each framework. 
-
 ## roadmap 
+
 
 [roadmap notes](ROADMAP.md)
 
