@@ -14,7 +14,7 @@ This roadmap is just my ideas for now. 'Advanced page types' I'm already current
 ## form builders
 
 - `i2.listform.q` (very simple list and form builder, with options to specify fields and types
- - for example : \"name\*, surname\*, age0\, email@\*, birthday?\" 
+ - for example : "name\*, surname\*, age0\, email@\*, birthday?" 
   - \* : required
   - 0 : number
   - ? : date
